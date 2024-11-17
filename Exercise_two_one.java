@@ -2,7 +2,7 @@
 package exercise;
 
 import java.util.Scanner;
-
+                                      // Celcius to Fahrenheit
 
 public class Exercise_two_one {
     public static void main(String[] args) {
