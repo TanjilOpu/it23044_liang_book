@@ -1,5 +1,5 @@
 
-package exercise;
+package exercise;          // kilometer to mile per hour
 
 public class Exercise {
   
