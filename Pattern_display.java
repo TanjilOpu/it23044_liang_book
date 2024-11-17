@@ -1,4 +1,4 @@
-
+//Here are given exercise from 1.3 to 1.9 of liang book
 package pattern_display;
 
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class Pattern_display {
     public static void main(String[] args) {
          Scanner input = new Scanner(System.in);
         
-        System.out.println("Exercise 1.3");
+        System.out.println("Exercise 1.3");                               // printing a pattern
         
         System.out.println("    J         A         v     v      A  ");
         System.out.println("    J        A A         v   v      A A   ");
@@ -21,7 +21,7 @@ public class Pattern_display {
         
         
         System.out.println("Exercise 1.4");
-                System.out.println("a    a^2   a^3");
+                System.out.println("a    a^2   a^3");         // printing the arithmatic operation's solution
 
         for(int i=1;i<=4;i++)
         {
@@ -38,7 +38,7 @@ public class Pattern_display {
                         
                         
                         
-                        System.out.println("Exercise 1.6");
+                        System.out.println("Exercise 1.6");      //print a series and their sum
                          int sum=0;
                         for(int i=1;i<=9;i++)
                         {
@@ -54,14 +54,14 @@ public class Pattern_display {
                         }
                         System.out.println(sum);
                         
-                  System.out.println("Exercise 1.7");
+                  System.out.println("Exercise 1.7");                                                    // calculate pi 
                   double result1 ,result2;
                   result1 = 4*(1.0-(1.0/3)+(1.0/5)-(1.0/7)+(1.0/9)-(1.0/11));
                   System.out.println(" 4*(1.0-(1.0/3)+(1.0/5)-(1.0/7)+(1.0/9)-(1.0/11))  =  "+result1);
                     result2 = 4*(1.0-(1.0/3)+(1.0/5)-(1.0/7)+(1.0/9)-(1.0/11)+(1.0/13));
                   System.out.println(" 4*(1.0-(1.0/3)+(1.0/5)-(1.0/7)+(1.0/9)-(1.0/11))  =  "+result2);
                   
-                   System.out.println("Exercise 1.8");
+                   System.out.println("Exercise 1.8");              // Calculate the area and perimeter
                    double pi=result2;
                    double perimeter,area,radius;
                    System.out.println("Perimeter of circle :  \n ");
@@ -80,7 +80,7 @@ public class Pattern_display {
                   area = pi*radius*radius;
                    System.out.println("Area = "+area);
                    
-                   System.out.println("\nExercise 1.9");
+                   System.out.println("\nExercise 1.9");                       // Calculate the area and perimeter
                    System.out.println("Area and perimerer of a Rectangle\n");
                    System.out.println("Given that  \n Width = 4.5 \nand Height = 7.9\n");
                    double r_area,r_perimeter ,width=4.5,height=7.9;
